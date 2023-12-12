@@ -51,4 +51,4 @@ python train.py
 El entrenamiento puede llevar un tiempo, especialmente si utiliza una GPU.
 
 ## Inferencia
-Una vez entrenado el modelo, puedes realizar inferencias en textos específicos. Puedes hacerlo ejecutando el código proporcionado en 'test.ipynb'. Este cuaderno de Jupyter te permitirá cargar el modelo, realizar predicciones y visualizar la matriz de confusión.
+Una vez entrenado el modelo, se hace la clasificación ejecutando el archivo `inference.py`, este abre una interfaz gráfica que pregunta cual es el archivo Excel a clasificar y luego de la clasificación esta pregunta donde se quiere guardar el archivo de resultados. Además, puedes realizar inferencias en textos específicos. Puedes hacerlo ejecutando el código proporcionado en `test.ipynb`. Este cuaderno de Jupyter te permitirá cargar el modelo, realizar predicciones y visualizar la matriz de confusión.
