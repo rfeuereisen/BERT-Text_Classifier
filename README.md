@@ -46,7 +46,7 @@ El entrenamiento puede llevar tiempo, especialmente con GPU. Después del entren
 
 ## Inferencia
 
-Una vez entrenado el modelo, realiza clasificaciones ejecutando `inference.py`. Este script abre una interfaz gráfica para clasificar un archivo Excel y guardar los resultados. También puedes realizar inferencias en textos específicos ejecutando el código proporcionado en `test.ipynb`.
+Una vez entrenado el modelo, realiza clasificaciones ejecutando `inference.py` para clasificar de manera local y `inference2.py` si se quiere utilizar docker para clasificar de forma web. Este script abre una interfaz gráfica para clasificar un archivo Excel y guardar los resultados. También puedes realizar inferencias en textos específicos ejecutando el código proporcionado en `test.ipynb`.
 
 ## Estrucutra de archivos
 
